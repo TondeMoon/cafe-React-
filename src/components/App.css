@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Amatic SC', Verdana;
+}
+
+/* .content {
+  background-image: url('../images/pexels-pixabay-414645.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.cafe_name {
+  color: aliceblue;
+}
+
+.mainText {
+  font-size: 1.3em;
+  padding: 2%;
+  color: white;
+  float: left;
+  text-align: left;
+}
+
+.mainText p {
+  width: 70%;
+}
+
+.button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: 'Amatic SC', Verdana, Geneva, Tahoma, sans-serif;
+  width: 100px;
+  margin: 0 5% 2% 0;
+  color: white;
+}
+
+.link {
+  display: inline;
+  padding: 5px 15px 5px 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.bigHeader {
+  float: left;
+}
+
+.mainText p {
+  float: left;
+}
+.frontPage_column {
+  margin: 3%;
+}
+
+.description {
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.address p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.map {
+  width: 700;
+  height: 600;
+  border: 0;
+}
